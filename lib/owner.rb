@@ -78,11 +78,11 @@ end
   def sell_pets 
     self.cats.each{|cat|
     cat.mood = "nervous"
-    cat.owner = nil 
-  end
+    cat.owner = nil}
+  end 
   self.dogs.each{|dog|
   dog.mood = "nervous"
-  dog.owner = nil 
+  dog.owner = nil}
 end 
 end 
 end
