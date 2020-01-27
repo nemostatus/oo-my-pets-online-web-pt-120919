@@ -79,6 +79,7 @@ end
     @pets.each{|species,array| array.each do |pet|pet.owner= nil}
     end 
   end 
+end 
 
  
 
