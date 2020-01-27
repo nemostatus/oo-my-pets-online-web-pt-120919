@@ -76,6 +76,7 @@ def feed_cats
   end 
 end 
   def sell_pets
+    self.clear
     end 
   end 
   
