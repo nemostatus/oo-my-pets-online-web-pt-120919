@@ -81,7 +81,7 @@ end
         pet.mood = "nervous"
       end
     end
-    @pets.clear
+    @pets<< pets.class
   end
 end 
   
