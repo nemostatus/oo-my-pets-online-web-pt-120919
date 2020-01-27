@@ -78,11 +78,11 @@ end
   def sell_pets 
     self.cats do |cat| 
       cat.mood = "nervous"
-      cat.owner = nil 
+      cat.delete(owner) 
     end 
     self.dogs do |dog|
       dog.mood = "nervous"
-      cat.owner = nil
+    dog.delete(owner)
     end 
   end 
 end 
