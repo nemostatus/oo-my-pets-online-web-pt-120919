@@ -75,7 +75,11 @@ def feed_cats
     cat.mood = "happy"
   end 
 end 
-  def sell_pets
+  def sell_pets 
+    self.cats do |cat| 
+      cat.mood = "nervous"
+      cat.owner = nil 
+  
     
   end 
   
