@@ -76,7 +76,7 @@ def feed_cats
   end 
 end 
   def sell_pets 
-    @pets.each{|pet| pet.owner= nil}
+    @pets.each{|species,array| array.each do |pet|pet.owner= nil}
     end 
   end 
 
