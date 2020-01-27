@@ -75,10 +75,13 @@ def feed_cats
     cat.mood = "happy"
   end 
   def sell_pets
-
- 
-
- end 
+    @pets.each do |pets, species|
+      species.map do |pet|
+        pet.mood = "nervous"
+      end
+    end
+    @pets.clear
+  end
  end 
 
  
