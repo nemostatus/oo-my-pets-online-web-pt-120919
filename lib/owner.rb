@@ -76,8 +76,7 @@ def feed_cats
   end 
 end 
   def sell_pets
-    delete(self)
-    end 
+    
   end 
   
  
