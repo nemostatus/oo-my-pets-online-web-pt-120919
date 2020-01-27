@@ -75,10 +75,9 @@ def feed_cats
     cat.mood = "happy"
   end 
   def sell_pets
- if sell_pets
-   
-  Cat.all << @pets[:cats]
- Dog.all << @pets[:dogs]
+
+ Cat.all << self.cats
+ Dog.all << self.dogs
    end 
  end 
  end 
