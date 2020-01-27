@@ -79,10 +79,13 @@ end
     self.cats do |cat| 
       cat.mood = "nervous"
       cat.owner = nil 
-  
-    
+    end 
+    self.dogs do |dog|
+      dog.mood = "nervous"
+      cat.owner = nil
+    end 
   end 
-  
+end 
  
 
  
