@@ -1,5 +1,5 @@
 class Owner
-  attr_accessor :pets,:cat,:dog,:owner
+  attr_accessor :pets,:cat,:dog
   attr_reader :species,:name
    
  
