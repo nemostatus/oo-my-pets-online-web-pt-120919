@@ -74,6 +74,7 @@ def feed_cats
   self.cats.each do |cat|
     cat.mood = "happy"
   end 
+end 
   def sell_pets
     @pets.each do |pets, species|
       species.map do |pet|
@@ -82,6 +83,7 @@ def feed_cats
     end
     @pets.clear
   end
+end 
   
  
 
