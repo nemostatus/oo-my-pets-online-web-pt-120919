@@ -76,9 +76,8 @@ def feed_cats
   end 
   def sell_pets
 
- Cat.all << self.cats
- Dog.all << self.dogs
-   end 
+ 
+
  end 
  end 
 
