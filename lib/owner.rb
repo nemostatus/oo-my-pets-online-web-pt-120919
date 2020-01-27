@@ -76,7 +76,7 @@ def feed_cats
   end 
 end 
   def sell_pets 
-    self.pets.each{|pet| pet.owner = nil}
+    @pets.each{|pet| pet.owner = nil}
     end 
   end 
 
