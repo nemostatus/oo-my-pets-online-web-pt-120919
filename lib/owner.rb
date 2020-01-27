@@ -79,7 +79,7 @@ end
     self.pets.each{|pet| pet.owner = nil}
     end 
   end 
-end 
+
  
 
  
